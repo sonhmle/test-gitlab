@@ -5,9 +5,9 @@ stages:
 build-job:
   stage: build
   script:
-    - echo "Do a build here"
+    - echo "Build $BUILD_VAR it"
 
 test-job:
   stage: test
   script:
-    - echo "Do a test here"
+    - echo "Test $TEST_VAR it"
